@@ -1,5 +1,7 @@
-
-1. INTRODUCTION 
+  AIM: FAKE NEWS DETECTION
+  
+1. INTRODUCTION
+   
 News is the information about events that are provided through different media: social media, platforms, electronic communication, or through the testimonyof observers and
 witnesses to events. The most important problem to be solved is to evaluate whether the data is mis-leaded or correct. 
 Since fake news tends to spread faster than real news there is a need to classify news as fake or not. In the project, the dataset used is from the Kaggle website where real
@@ -12,6 +14,7 @@ In this project, we will be ignoring attributes like the id of the news, the tex
 use different machine learning algorithms and determine the best way to classify news.
 
 2. LITERATURE SURVEY
+   
 2.1. Literature Review
 In Today's world, everybody uses the internet to post content true or false over the internet. Unfortunately, counterfeit news gathers a lot of consideration over the web,
 particularly via webbased networking media. Individuals get misdirected and don't reconsider before flowing such mis-educational pieces to the most distant part of the
@@ -60,6 +63,7 @@ model for fake news detection by using FND-jru, Pontes Rout, and News Files data
 on different datasets among them Naive Bayes, Passive Aggressive, and DNN gave better accuracies of 90%, 83%, and 80%. 
 
 3. METHODOLOGY
+   
 3.1. Data Preprocessing 
 There exploratory data analysis is performed on training data to prepare the data for modeling of systems like null or missing values, removing social media slang, removing stop-words,
 and correcting contraction. Also, Part of Speech (PoS) Tagging has been performed in the data to meet the accuracy of the prediction model. Data has been stemmed to get the root
